@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:9000",
+  "experimentalFetchPolyfill": true,
+  "projectId": "56xy36"
+}
