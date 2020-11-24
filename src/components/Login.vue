@@ -7,8 +7,8 @@
         </transition>
         <section>
             <div class="col1">
-                <h1>PlatziPosts</h1>
-                <p>Bienvenido a PlatziPosts, plataforma de microbloging usando Vue y Firebase</p>
+                <h1>QA Posts</h1>
+                <p>Ejemplo de Automatizacion usando Cypress</p>
             </div>
             <div class="col2" :class="{ 'signup-form': !showLoginForm && !showForgotPassword }">
                 <form v-if="showLoginForm" @submit.prevent>

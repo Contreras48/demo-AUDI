@@ -2,7 +2,7 @@
     <header>
         <section>
             <div class="col1">
-                <router-link to="dashboard"><h3>PlatziPosts</h3></router-link>
+                <router-link to="dashboard"><h3>QA Posts</h3></router-link>
                 <ul class="inline">
                     <li><router-link to="dashboard">Dashboard</router-link></li>
                     <li><router-link to="settings">Configuración</router-link></li>
