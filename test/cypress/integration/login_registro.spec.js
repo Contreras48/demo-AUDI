@@ -1,6 +1,6 @@
 'use stric'
 
-describe('Pruebas de login',() => {
+describe('Pruebas de login y registro',() => {
 
     afterEach(() => {
         cy.visit('/login')
@@ -18,7 +18,6 @@ describe('Pruebas de login',() => {
         cy.get('#password2').type('test1234')
         cy.contains('.button', 'Registrarse').click()
         cy.wait(2000)
-        //cy.contains('.error-msg').should('not.exist')
         cy.get('.error-msg').should('not.be.visible')
     })
 
@@ -30,7 +29,6 @@ describe('Pruebas de login',() => {
         cy.get('#password2').type('test1234')
         cy.contains('.button', 'Registrarse').click()
         cy.wait(1000)
-        //cy.contains('.error-msg').should('not.exist')
         cy.get('.error-msg').should('be.visible')
     })
 
